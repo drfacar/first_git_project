@@ -20,3 +20,10 @@ NOTE: git status --> This is our friend.This can be used anytime to see the prog
     *git add .
     *git commit -m "added my second java class"
     *git push
+
+5.Adding specific files
+  *Create 2 java class: MyThirdClass , MyFourthClass
+  *Create a commit with only myFourthClass
+  *git add "src/main/java/first_git_project/MyFourthClass.java"
+  *git commit -m "committing my fourth class"
+  *git push
